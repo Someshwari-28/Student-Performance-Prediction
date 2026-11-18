@@ -34,14 +34,12 @@ Random Forest Classifier
 
 # Project Files
 
-- "student_performance.py" – Python implementation.
-- "Project_Report.docx" – Project report.
-- "requirements.txt" – Required Python libraries.
-- "DATASET_LINK.txt" – Dataset download instructions.
-- "student-mat.csv" – Dataset (download separately).
-- "figures/" – Folder for generated graphs.
-- "Project_Presentation.pptx" – Project presentation.
-- "Demo_Video" – Project demonstration video or link.
+`- "student_performance.py"` – Python implementation.
+`- "Project_Report.docx"` – Project report.
+`- "requirements.txt"` – Required Python libraries.
+`- "DATASET_LINK.txt"` – Dataset download instructions.
+`- "student-mat.csv"` – Dataset (download separately).
+`- "figures/"` – Folder for generated graphs.
 
 # Installation and Setup
 
@@ -67,9 +65,9 @@ The program prints dataset information and model evaluation results. It also gen
 
 # MODEL PERFORMANCE RESULTS
 
-According to the project report, **Model A** achieved 72.15% test accuracy and 69.37% mean 5-fold cross-validation accuracy. **Model A** uses background and behavioural features without including previous-period grades (G1 and G2), making it suitable for early-warning prediction.
+According to the project report, **Model A** achieved `72.15%` test accuracy and `69.37%` mean 5-fold cross-validation accuracy. **Model A** uses background and behavioural features without including previous-period grades (G1 and G2), making it suitable for early-warning prediction.
 
-**Model B** achieved 91.14% test accuracy and 91.39% mean 5-fold cross-validation accuracy. **Model B** includes previous-period grades (G1 and G2), which improves its prediction accuracy.
+**Model B** achieved `91.14%` test accuracy and `91.39%` mean 5-fold cross-validation accuracy. **Model B** includes previous-period grades (G1 and G2), which improves its prediction accuracy.
 
 The results show that **Model B** achieved higher accuracy than **Model A**. However, **Model A** is considered the early-warning model because it predicts student performance without using previous-period grades.
 
