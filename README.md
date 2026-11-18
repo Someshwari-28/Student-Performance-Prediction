@@ -65,22 +65,26 @@ python student_performance.py
 
 The program prints dataset information and model evaluation results. It also generates graph images in the "figures/" folder and saves "results.json".
 
-# Results
+# MODEL PERFORMANCE RESULTS
 
-According to the project report:
-
-Model| Test Accuracy| 5-Fold Cross-Validation Accuracy
+Model| Test Accuracy| 5-Fold CV Accuracy
 Model A| 72.15%| 69.37%
 Model B| 91.14%| 91.39%
 
-Model A is used for early-warning prediction because it does not use previous-period grades. Model B includes G1 and G2 for comparison.
+# RESULT ANALYSIS
+
+- Model A: Uses background and behavioural features without G1 and G2. It is designed for early-warning prediction.
+- Model B: Includes previous grades (G1 and G2) and achieves higher prediction accuracy.
+- Best Accuracy: Model B achieved 91.14% test accuracy.
+
+Model A helps identify students who may need academic support earlier, while Model B provides a comparison using previous academic grades.
 
 # Team Members
 
-1. Sukanya Devi Rayapati – 25RBAIM0074
-2. Nandini Nagadapally – 25RBAIM0070
-3. Someshwari Thogarpally – 25RBAIM0075
-4. Sahitya Chamanthula – 25RBAIM0077
+1.Nandini Nagadapally – 25RBAIM0070
+2.Sukanya Devi Rayapati – 25RBAIM0074
+3.Someshwari Thogarpally – 25RBAIM0075
+4.Sahitya Chamanthula – 25RBAIM0077
 
 # Institution Details
 
