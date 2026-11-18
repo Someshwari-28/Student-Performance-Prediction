@@ -96,7 +96,3 @@ Faculty Guide: Dr. M. Praveen
 # Conclusion
 
 This project demonstrates how Machine Learning can be used to predict student academic performance. The Random Forest Classifier helps identify students who may need additional academic support. The early-warning model can help educators take timely action to improve student performance.
-
----
-
-Note: Run the code and verify the outputs before final submission. Include the project presentation and demo video or its public link in the repository.
