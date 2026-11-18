@@ -76,15 +76,21 @@ The results show that Model B achieved higher accuracy than Model A. However, Mo
 # Team Members
 
 1.Nandini Nagadapally – 25RBAIM0070
+
 2.Sukanya Devi Rayapati – 25RBAIM0074
+
 3.Someshwari Thogarpally – 25RBAIM0075
+
 4.Sahitya Chamanthula – 25RBAIM0077
 
 # Institution Details
 
 Department: Computer Science and Engineering (AI & ML)
+
 University: MNR University
+
 Academic Year: 2026–2027
+
 Faculty Guide: Dr. M. Praveen
 
 # Conclusion
