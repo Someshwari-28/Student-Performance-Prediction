@@ -67,17 +67,11 @@ The program prints dataset information and model evaluation results. It also gen
 
 # MODEL PERFORMANCE RESULTS
 
-Model| Test Accuracy| 5-Fold CV Accuracy
-Model A| 72.15%| 69.37%
-Model B| 91.14%| 91.39%
+According to the project report, Model A achieved 72.15% test accuracy and 69.37% mean 5-fold cross-validation accuracy. Model A uses background and behavioural features without including previous-period grades (G1 and G2), making it suitable for early-warning prediction.
 
-# RESULT ANALYSIS
+Model B achieved 91.14% test accuracy and 91.39% mean 5-fold cross-validation accuracy. Model B includes previous-period grades (G1 and G2), which improves its prediction accuracy.
 
-- Model A: Uses background and behavioural features without G1 and G2. It is designed for early-warning prediction.
-- Model B: Includes previous grades (G1 and G2) and achieves higher prediction accuracy.
-- Best Accuracy: Model B achieved 91.14% test accuracy.
-
-Model A helps identify students who may need academic support earlier, while Model B provides a comparison using previous academic grades.
+The results show that Model B achieved higher accuracy than Model A. However, Model A is considered the early-warning model because it predicts student performance without using previous-period grades.
 
 # Team Members
 
