@@ -45,33 +45,33 @@ Random Forest Classifier
 
 # Installation and Setup
 
-Step 1: Install Python 3
+## Step 1: Install Python 3
 
 Download and install Python 3 on your computer.
 
-Step 2: Download the Dataset
+## Step 2: Download the Dataset
 
-Download the Mathematics dataset from the UCI Student Performance dataset page.
+Download the Mathematics dataset from the [UCI Student Performance Dataset](https://archive.ics.uci.edu/dataset/320/student+performance)
 
-Step 3: Install Required Libraries
+## Step 3: Install Required Libraries
 
 Open the terminal in the project folder and run:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-Step 4: Run the Python Program
+## Step 4: Run the Python Program
 
-python student_performance.py
+`python student_performance.py`
 
 The program prints dataset information and model evaluation results. It also generates graph images in the "figures/" folder and saves "results.json".
 
 # MODEL PERFORMANCE RESULTS
 
-According to the project report, Model A achieved 72.15% test accuracy and 69.37% mean 5-fold cross-validation accuracy. Model A uses background and behavioural features without including previous-period grades (G1 and G2), making it suitable for early-warning prediction.
+According to the project report, **Model A** achieved 72.15% test accuracy and 69.37% mean 5-fold cross-validation accuracy. **Model A** uses background and behavioural features without including previous-period grades (G1 and G2), making it suitable for early-warning prediction.
 
-Model B achieved 91.14% test accuracy and 91.39% mean 5-fold cross-validation accuracy. Model B includes previous-period grades (G1 and G2), which improves its prediction accuracy.
+**Model B** achieved 91.14% test accuracy and 91.39% mean 5-fold cross-validation accuracy. **Model B** includes previous-period grades (G1 and G2), which improves its prediction accuracy.
 
-The results show that Model B achieved higher accuracy than Model A. However, Model A is considered the early-warning model because it predicts student performance without using previous-period grades.
+The results show that **Model B** achieved higher accuracy than **Model A**. However, **Model A** is considered the early-warning model because it predicts student performance without using previous-period grades.
 
 # Team Members
 
@@ -85,13 +85,13 @@ The results show that Model B achieved higher accuracy than Model A. However, Mo
 
 # Institution Details
 
-Department: Computer Science and Engineering (AI & ML)
+**Department:** Computer Science and Engineering (AI & ML)
 
-University: MNR University
+**University:** MNR University
 
-Academic Year: 2026–2027
+**Academic Year:** 2026–2027
 
-Faculty Guide: Dr. M. Praveen
+**Faculty Guide:** Dr. M. Praveen
 
 # Conclusion
 
