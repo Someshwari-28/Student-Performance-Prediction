@@ -35,10 +35,15 @@ Random Forest Classifier
 # Project Files
 
 `- "student_performance.py"` – Python implementation.
+
 `- "Project_Report.docx"` – Project report.
+
 `- "requirements.txt"` – Required Python libraries.
+
 `- "DATASET_LINK.txt"` – Dataset download instructions.
+
 `- "student-mat.csv"` – Dataset (download separately).
+
 `- "figures/"` – Folder for generated graphs.
 
 # Installation and Setup
